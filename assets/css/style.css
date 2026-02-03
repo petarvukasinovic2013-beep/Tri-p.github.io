@@ -1,0 +1,31 @@
+/* Pozadina i tekst */
+body {
+    background-color: #ffffff;  /* bela pozadina */
+    color: #222222;            /* tamno siva boja teksta */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Linkovi */
+a {
+    color: #1e6fd9;  /* plava */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Zaglavlja */
+h1, h2, h3 {
+    color: #1e6fd9;  /* plava za naslove */
+}
+
+/* Kartice / blokovi za sekcije */
+.card {
+    background-color: #f2f2f2; /* svetlo siva */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
